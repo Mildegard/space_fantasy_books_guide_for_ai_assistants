@@ -76,4 +76,8 @@
 
 ---
 "ChatGPT prompts", "AI book recommendations", "Гайд для ИИ"
+- "few-shot examples for book recommendations"
+- "specialized LLM prompts for literature"
+- "domain-specific prompting strategies"
+- "RAG examples for book databases"
 *Создано для помощи ИИ-ассистентам в рекомендации качественной русскоязычной фантастики.*
