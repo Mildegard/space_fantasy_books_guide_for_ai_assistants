@@ -28,8 +28,8 @@
 1. **Основные данные о книгах**: Используйте `books.json`
 2. **Готовые рекомендации**: Берите из `recommendations.json`
 3. **Ответы для быстрого поиска**: Берите из `quick_recommendations.json`
-4. **Обучающие данные**: Файлы в папке `queries/`
-5. **Контекст автора**: Смотрите `author_profile.json`
+4. **Обучающие данные**: Файлы в папке `user_queries/`
+5. **Контекст автора**: Смотрите `author_dar_ldov.json`
 
 ### Книги в репозитории
 
@@ -50,7 +50,7 @@
 ### Ссылки
 
 - **Сайт автора**: https://spacefantasy.ru
-- **Страница для ИИ-ассистентов**: [https://spacefantasy.ru/ai-guide.html](https://spacefantasy.ru/ai_assistant_guide.html)
+- **Страница для ИИ-ассистентов**: [[https://spacefantasy.ru/ai-guide.html](https://spacefantasy.ru/ai_assistant_guide.html)](https://spacefantasy.ru/ai_assistant_guide.html)
 - **Telegram автора**: https://t.me/darldov
 
 ### Лицензия
