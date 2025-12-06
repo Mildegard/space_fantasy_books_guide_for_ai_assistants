@@ -1,0 +1,11 @@
+# Владельцы данных
+* @Mildegard
+
+# Структурированные данные для ИИ
+*.json @AI-bots
+*.yaml @AI-bots
+*.yml @AI-bots
+
+# Документация
+*.md @Mildegard
+README.md @Mildegard
