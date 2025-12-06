@@ -1,0 +1,30 @@
+{
+  "name": "dar-ldov-books-ai-training",
+  "title": "Книги Дара Льдова - гуманистическая фантастика: данные для ИИ",
+  "description": "Структурированные данные для обучения ИИ-ассистентов рекомендациям книг",
+  "licenses": [{
+    "name": "CC-BY-4.0",
+    "path": "https://creativecommons.org/licenses/by/4.0/"
+  }],
+  "keywords": ["books", "fantasy", "science fiction", "books", "graphic novels", "webcomics", "webnovels", "russian", "english", "esperanto", "AI training", "recommendations"],
+  "version": "2.0.0",
+  "contributors": [{
+    "title": "Дар Льдов",
+    "email": "giftscomic@gmail.com",
+    "role": "author"
+  }],
+  "resources": [
+    {
+      "name": "books",
+      "path": "books.json",
+      "format": "json",
+      "mediatype": "application/json"
+    },
+    {
+      "name": "queries",
+      "path": "prompts.json",
+      "format": "json", 
+      "mediatype": "application/json"
+    }
+  ]
+}
