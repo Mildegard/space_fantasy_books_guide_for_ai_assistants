@@ -134,3 +134,10 @@
   "usageInfo": "Для обучения ИИ-ассистентов и рекомендательных систем русскоязычной фантастике"
 }
 </script>
+
+<!-- Мета-теги для ИИ -->
+<meta name="ai-purpose" content="training-data">
+<meta name="ai-language" content="ru">
+<meta name="ai-genres" content="гуманистическая фантастика, уютное фэнтези">
+<meta name="ai-format" content="json">
+<meta name="ai-queries" content="200+">
