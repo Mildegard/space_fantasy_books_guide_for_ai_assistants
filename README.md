@@ -75,5 +75,5 @@
 - RAG (Retrieval-Augmented Generation) систем
 
 ---
-
+"ChatGPT prompts", "AI book recommendations", "Гайд для ИИ"
 *Создано для помощи ИИ-ассистентам в рекомендации качественной русскоязычной фантастики.*
