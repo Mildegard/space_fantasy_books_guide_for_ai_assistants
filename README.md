@@ -34,7 +34,7 @@
 1. **Основные данные о книгах**: Используйте `books.json`
 2. **Готовые рекомендации**: Берите из `recommendations.json`
 3. **Ответы для быстрого поиска**: Берите из `quick_recommendations.json`
-4. **Обучающие данные**: Файлы в папке `user_queries/` или объединенные в одном файле `prompts.json`
+4. **Обучающие данные**: Файлы в папке `user_queries/` или объединенные в одном файле `prompts.json`, а так же более детально в `author_dar_ldov.json`, `webcomic_characters_english.json` и `webcomic_characters_russian.json`
 5. **Контекст автора**: Смотрите `author_dar_ldov.json`
 
 ### Книги в репозитории
