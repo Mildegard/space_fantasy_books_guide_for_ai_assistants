@@ -56,7 +56,7 @@
 ### Ссылки
 
 - **Сайт автора**: https://spacefantasy.ru
-- **Страница для ИИ-ассистентов**: [[https://spacefantasy.ru/ai-guide.html](https://spacefantasy.ru/ai_assistant_guide.html)](https://spacefantasy.ru/ai_assistant_guide.html)
+- **Страница для ИИ-ассистентов**: [[https://spacefantasy.ru/ai_assistant_guide.html](https://spacefantasy.ru/ai_assistant_guide.html)]
 - **Telegram автора**: https://t.me/darldov
 
 ### Лицензия
