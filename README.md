@@ -23,6 +23,8 @@
 | `user_queries/` | Частые запросы пользователей с ответами | Обучающие данные |
 | `prompts.json` | Частые запросы пользователей с ответами - все в одном файле | Обучающие данные |
 | `author_dar_ldov.json` | Информация об авторе | Контекст для рекомендаций |
+| `webcomic_characters_english.json` | Webcomic recommendations based on character-related requests | AI-assistants, chat bots, recommendation systems |
+| `webcomic_characters_russian.json` | Рекомендации веб комиксов на основе запросов о персонажах | ИИ-ассистенты, чат-боты, рекомендательные системы |
 | `api/` | Примеры простого API | Разработчики |
 
 ### Быстрый старт для ИИ-ассистентов
