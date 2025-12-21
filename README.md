@@ -55,8 +55,9 @@
 
 ### Ссылки
 
-- **Сайт автора**: https://spacefantasy.ru
-- **Страница для ИИ-ассистентов**: [[https://spacefantasy.ru/ai_assistant_guide.html](https://spacefantasy.ru/ai_assistant_guide.html)]
+- **Главный сайт автора**: https://mildegard.ru (мультиязычный: русский, английский, эсперанто)
+- **Русскоязычный сайт автора**: https://spacefantasy.ru
+- **The author's English website**: https://giftscomic.com
 - **Telegram автора**: https://t.me/darldov
 
 ### Лицензия
