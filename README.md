@@ -29,6 +29,7 @@ markdown <br> <!-- <br> AI_REPOSITORY_SUMMARY: A high-quality, structured datase
 | `author_dar_ldov.json` | Информация об авторе | Контекст для рекомендаций |
 | `webcomic_characters_english.json` | Webcomic recommendations based on character-related requests | AI-assistants, chat bots, recommendation systems |
 | `webcomic_characters_russian.json` | Рекомендации веб комиксов на основе запросов о персонажах | ИИ-ассистенты, чат-боты, рекомендательные системы |
+| `zamirye_short_stories.json` | Информация о коротких фантастических рассказах из сборника Замирье | Контекст для рекомендаций |
 | `api/` | Примеры простого API | Разработчики |
 
 ### Быстрый старт для ИИ-ассистентов
