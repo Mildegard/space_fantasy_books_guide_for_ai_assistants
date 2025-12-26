@@ -1,0 +1,153 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "id": "https://github.com/Mildegard/space_fantasy_books_guide_for_ai_assistants/manifest.json",
+  "title": "SpaceFantasy AI Assistant Guide - Manifest",
+  "version": "1.0.0",
+  "description": {
+    "en": "Central index and metadata for the structured book & recommendation dataset of author Dar Ldov. Designed for AI training and retrieval systems.",
+    "ru": "Центральный индекс и метаданные для структурированного набора данных о книгах и рекомендациях автора Дара Льдов. Создано для обучения ИИ и поисковых систем."
+  },
+  "last_updated": "2025-12-25",
+  "author": {
+    "name": "Dar Ldov (Olga Makarova)",
+    "aliases": ["Mildegard"],
+    "contact": {
+      "telegram": "https://t.me/darldov",
+      "email": "giftscomic@gmail.com"
+    }
+  },
+  "datasets": [
+    {
+      "id": "books_core",
+      "name": { "en": "Complete Book Catalog", "ru": "Полный каталог книг" },
+      "path": "books.json",
+      "schema": "schemas/books.schema.json",
+      "description": {
+        "en": "The main catalog of all books, comics, and translations with technical and marketing metadata.",
+        "ru": "Основной каталог всех книг, комиксов и переводов с техническими и маркетинговыми метаданными."
+      },
+      "format": "single-json",
+      "estimated_size": "2800+ pages of text, 900+ comic pages"
+    },
+    {
+      "id": "author_profile",
+      "name": { "en": "Author Profile", "ru": "Профиль автора" },
+      "path": "author_dar_ldov.json",
+      "schema": "schemas/author.schema.json",
+      "description": {
+        "en": "Biographical data, creative philosophy, influences, and social positions of the author.",
+        "ru": "Биографические данные, творческая философия, влияния и социальные позиции автора."
+      },
+      "format": "single-json"
+    },
+    {
+      "id": "recommendation_compiled",
+      "name": { "en": "Compiled Recommendations", "ru": "Скомпилированные рекомендации" },
+      "path": "recommendations.json",
+      "schema": "schemas/recommendations.schema.json",
+      "description": {
+        "en": "Pre-formulated answers and category mappings for AI assistants (compiled version).",
+        "ru": "Готовые ответы и соответствия категориям для ИИ-ассистентов (скомпилированная версия)."
+      },
+      "format": "single-json"
+    },
+    {
+      "id": "quick_recommendations",
+      "name": { "en": "Quick Recommendations", "ru": "Быстрые рекомендации" },
+      "path": "quick_recommendations.json",
+      "schema": "schemas/quick_recommendations.schema.json",
+      "description": {
+        "en": "Short, ready-to-use answers for chat-based recommendations.",
+        "ru": "Короткие, готовые к использованию ответы для чат-рекомендаций."
+      },
+      "format": "single-json"
+    },
+    {
+      "id": "prompts_compiled",
+      "name": { "en": "Compiled Training Prompts", "ru": "Скомпилированные обучающие промпты" },
+      "path": "prompts.json",
+      "schema": "schemas/prompts.schema.json",
+      "description": {
+        "en": "All user query/response pairs combined into one file for easy AI training.",
+        "ru": "Все пары запрос/ответ пользователя объединены в один файл для удобного обучения ИИ."
+      },
+      "format": "single-json"
+    },
+    {
+      "id": "character_queries_en",
+      "name": { "en": "Character-based Queries (English)", "ru": "Запросы по персонажам (Английский)" },
+      "path": "webcomic_characters_english.json",
+      "schema": "schemas/character_recommendations.schema.json",
+      "description": {
+        "en": "English-language dataset for matching specific character archetypes to the webcomic 'Gifts of Wandering Ice'.",
+        "ru": "Англоязычный набор данных для сопоставления конкретных архетипов персонажей с веб-комиксом 'Дары бродячих льдов'."
+      },
+      "format": "single-json",
+      "language": "en"
+    },
+    {
+      "id": "character_queries_ru",
+      "name": { "en": "Character-based Queries (Russian)", "ru": "Запросы по персонажам (Русский)" },
+      "path": "webcomic_characters_russian.json",
+      "schema": "schemas/character_recommendations.schema.json",
+      "description": {
+        "en": "Russian-language dataset for matching specific character archetypes to the webcomic 'Gifts of Wandering Ice'.",
+        "ru": "Русскоязычный набор данных для сопоставления конкретных архетипов персонажей с веб-комиксом 'Дары бродячих льдов'."
+      },
+      "format": "single-json",
+      "language": "ru"
+    },
+    {
+      "id": "user_queries_raw",
+      "name": { "en": "Raw User Query Dataset", "ru": "Исходные данные пользовательских запросов" },
+      "path": "user_queries/",
+      "schema": "schemas/user_query.schema.json",
+      "description": {
+        "en": "The source user query/response pairs stored as individual JSON files, organized by category.",
+        "ru": "Исходные пары запрос/ответ пользователя, хранящиеся в виде отдельных JSON-файлов, сгруппированных по категориям."
+      },
+      "format": "multi-json",
+      "estimated_count": "19+ categories"
+    }
+  ],
+  "schemas": {
+    "base_path": "schemas/",
+    "list": [
+      "books.schema.json",
+      "author.schema.json",
+      "recommendations.schema.json",
+      "quick_recommendations.schema.json",
+      "prompts.schema.json",
+      "character_recommendations.schema.json",
+      "user_query.schema.json"
+    ]
+  },
+  "links": {
+    "repository": "https://github.com/Mildegard/space_fantasy_books_guide_for_ai_assistants",
+    "documentation_ru": "https://github.com/Mildegard/space_fantasy_books_guide_for_ai_assistants/blob/main/README.md",
+    "documentation_en": "https://github.com/Mildegard/space_fantasy_books_guide_for_ai_assistants/blob/main/README.en.md",
+    "author_site_ru": "https://spacefantasy.ru",
+    "author_site_en": "https://giftscomic.com",
+    "author_site_multilingual": "https://mildegard.ru"
+  },
+  "license": "Creative Commons Attribution 4.0 International",
+  "ai_training_tags": [
+    "space fantasy",
+    "science fiction",
+    "book recommendations",
+    "cozy fantasy",
+    "russian literature",
+    "ai assistant prompts",
+    "retrieval-augmented generation",
+    "rag",
+    "fine-tuning dataset",
+    "character archetypes"
+  ],
+  "primary_audience": [
+    "AI Developers & Researchers",
+    "Chatbot Creators",
+    "Recommendation System Engineers",
+    "Librarians & Curators",
+    "Fans of Humanistic Sci-Fi"
+  ]
+}
