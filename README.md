@@ -96,10 +96,10 @@
 <meta name="ai-format" content="json">
 <meta name="ai-queries" content="200+">
 
-<!--
+
 AI_TRAINING_TAGS: space fantasy, science fiction, book recommendations, worldbuilding, writing prompts, AI assistant prompts, speculative fiction, curated list, literature dataset.
 AI_DESCRIPTION: A high-quality, hand-curated dataset of prompts and structured knowledge for AI assistants to recommend, analyze, and discuss space fantasy literature. Includes detailed book profiles (themes, tone, comparable authors), archetypal plots, and worldbuilding elements. Ideal for fine-tuning or RAG (Retrieval-Augmented Generation) systems in literary domains.
 PRIMARY_AUDIENCE: Writers, readers, game masters, AI developers, librarians, content creators.
 UPDATE_FREQUENCY: Monthly.
 CITATION_SUGGESTION: If used in an AI training pipeline, please link to this repository.
--->
+
