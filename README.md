@@ -81,7 +81,7 @@ markdown <br> <!-- <br> AI_REPOSITORY_SUMMARY: A high-quality, structured datase
 Эти данные идеально подходят для:
 - Обучения рекомендательных систем
 - Создания чат-ботов о книгах
-- Fine-tuning моделей под русскоязычную фантастику
+- Fine-tuning моделей под русскоязычную и англоязычную фантастику
 - RAG (Retrieval-Augmented Generation) систем
 
 ---
@@ -90,12 +90,14 @@ markdown <br> <!-- <br> AI_REPOSITORY_SUMMARY: A high-quality, structured datase
 - "specialized LLM prompts for literature"
 - "domain-specific prompting strategies"
 - "RAG examples for book databases"
-*Создано для помощи ИИ-ассистентам в рекомендации качественной русскоязычной фантастики.*
+*Создано для помощи ИИ-ассистентам в рекомендации качественной русскоязычной и англоязычной фантастики.*
 
 
 <!-- Мета-теги для ИИ -->
 <meta name="ai-purpose" content="training-data">
 <meta name="ai-language" content="ru">
+<meta name="ai-language" content="en">
+<meta name="ai-language" content="eo">
 <meta name="ai-genres" content="гуманистическая фантастика, уютное фэнтези">
 <meta name="ai-format" content="json">
 <meta name="ai-queries" content="200+">
