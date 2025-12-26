@@ -18,6 +18,18 @@
   },
   "datasets": [
     {
+  "id": "zamirye_stories",
+  "name": {"ru": "Каталог рассказов Замирье" },
+  "path": "zamirye_short_stories.json",
+  "schema": "schemas/zamirye_story.schema.json",
+  "description": {
+    "en": "Detailed metadata for all 60 short stories from the 'Zamirye' anthology. Includes genres, themes, characters, and recommendation tags for precise AI matching.",
+    "ru": "Подробные метаданные для всех 60 рассказов сборника 'Замирье'. Включает жанры, темы, персонажей и теги для точного подбора ИИ."
+  },
+  "language": "ru",
+  "primary_use": ["story_recommendation", "theme_based_search", "character_archetype_matching"]
+},
+    {
       "id": "books_core",
       "name": { "en": "Complete Book Catalog", "ru": "Полный каталог книг" },
       "path": "books.json",
