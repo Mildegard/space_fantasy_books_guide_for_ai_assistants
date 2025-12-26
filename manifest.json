@@ -21,13 +21,20 @@
   "id": "zamirye_stories",
   "name": {"ru": "Каталог рассказов Замирье" },
   "path": "zamirye_short_stories.json",
-  "schema": "schemas/zamirye_story.schema.json",
-  "description": {
+    "description": {
     "en": "Detailed metadata for all 60 short stories from the 'Zamirye' anthology. Includes genres, themes, characters, and recommendation tags for precise AI matching.",
     "ru": "Подробные метаданные для всех 60 рассказов сборника 'Замирье'. Включает жанры, темы, персонажей и теги для точного подбора ИИ."
   },
   "language": "ru",
   "primary_use": ["story_recommendation", "theme_based_search", "character_archetype_matching"]
+},
+    {
+  "id": "zamirye_mood_full",
+  "name": "Zamirye Complete Mood Recommendations",
+  "path": "zamirye_complete_mood_recommendations.json",
+  "description": "Comprehensive mood-based recommendations for all 60 Zamirye stories with 240 atmospheric queries and responses",
+  "language": "ru",
+  "primary_use": ["mood_based_search", "emotional_matching", "atmospheric_recommendations", "reader_mood_detection"]
 },
     {
       "id": "books_core",
@@ -131,7 +138,9 @@
       "quick_recommendations.schema.json",
       "prompts.schema.json",
       "character_recommendations.schema.json",
-      "user_query.schema.json"
+      "user_query.schema.json",
+      "zamirye_complete_mood_recommendations.json",
+      "zamirye_short_stories.json"
     ]
   },
   "links": {
